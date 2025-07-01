@@ -57,3 +57,55 @@
   });
 
 // end testimonial swiper
+
+// Customer
+ 
+        // Add click interactions for logos
+        const logoItems = document.querySelectorAll('.logo-item');
+        
+        logoItems.forEach(item => {
+            item.addEventListener('click', function() {
+                // Add a flash effect on click
+                this.style.transform = 'scale(0.95)';
+                setTimeout(() => {
+                    this.style.transform = '';
+                }, 150);
+                
+                // Log which logo was clicked (you can replace this with actual functionality)
+                const logoText = this.textContent.trim();
+                console.log(`${logoText} logo clicked!`);
+            });
+            
+            // Add subtle hover sound effect (optional)
+            item.addEventListener('mouseenter', function() {
+                this.style.boxShadow = '0 15px 30px rgba(0,0,0,0.3)';
+            });
+            
+            item.addEventListener('mouseleave', function() {
+                this.style.boxShadow = '0 4px 15px rgba(0,0,0,0.1)';
+            });
+        });
+
+        // Pause animation on hover
+        const carousel = document.querySelector('.logo-carousel');
+        const track = document.querySelector('.logo-track');
+        
+        carousel.addEventListener('mouseenter', () => {
+            track.style.animationPlayState = 'paused';
+        });
+        
+        carousel.addEventListener('mouseleave', () => {
+            track.style.animationPlayState = 'running';
+        });
+
+        // Optional: Add keyboard navigation
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'ArrowLeft' || e.key === 'ArrowRight') {
+                // Pause animation temporarily when using arrow keys
+                track.style.animationPlayState = 'paused';
+                setTimeout(() => {
+                    track.style.animationPlayState = 'running';
+                }, 2000);
+            }
+        });
+  // End Customer
