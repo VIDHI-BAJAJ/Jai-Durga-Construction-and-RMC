@@ -1102,6 +1102,45 @@
             align-items: flex-start;
         }
 
+.contact-info {
+  flex: 1;
+  min-width: 300px;
+  color: #000;
+  margin-top: 50px;
+}
+
+.contact-info h2 {
+  font-size: 32px;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+.info-item {
+  display: flex;
+  gap: 15px;
+  align-items: flex-start;
+  margin-bottom: 15px;
+}
+
+.info-item i {
+  font-size: 18px;
+  margin-top: 4px;
+  color: #000;
+  min-width: 20px;
+}
+
+.info-item span {
+  font-size: 15px;
+  line-height: 1.4;
+}
+
+.divider {
+  border-bottom: 1px solid #ccc;  /* Make the line black and visible */
+  margin: 15px 0;
+  width: 80%;
+  opacity: 0.5;  /* Slight transparency like your design */
+}
+
         .contact-form {
             flex: 1;
             min-width: 300px;
@@ -1176,6 +1215,7 @@
             overflow: hidden;
             box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
             border-radius: 8px;
+            margin-top: 30px;
         }
 
         /* Enhanced responsive design */
@@ -1792,8 +1832,8 @@
 }
 
 .logo-item img {
-    max-width: 100%;
-    max-height: 100%;
+    max-width: 120%;
+    max-height: 120%;
     object-fit: contain;
     filter: grayscale(20%) opacity(0.8);
     transition: all 0.3s ease;
@@ -1838,15 +1878,7 @@
     pointer-events: none;
 }
 
-.logo-carousel::before {
-    left: 0;
-    background: linear-gradient(to right, rgba(255,255,255,1), rgba(255,255,255,0));
-}
 
-.logo-carousel::after {
-    right: 0;
-    background: linear-gradient(to left, rgba(255,255,255,1), rgba(255,255,255,0));
-}
 
 /* Control buttons */
 .carousel-controls {

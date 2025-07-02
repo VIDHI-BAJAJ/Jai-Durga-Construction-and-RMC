@@ -76,14 +76,6 @@
                 console.log(`${logoText} logo clicked!`);
             });
             
-            // Add subtle hover sound effect (optional)
-            item.addEventListener('mouseenter', function() {
-                this.style.boxShadow = '0 15px 30px rgba(0,0,0,0.3)';
-            });
-            
-            item.addEventListener('mouseleave', function() {
-                this.style.boxShadow = '0 4px 15px rgba(0,0,0,0.1)';
-            });
         });
 
         // Pause animation on hover
