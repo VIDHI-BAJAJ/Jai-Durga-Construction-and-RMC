@@ -610,16 +610,16 @@
             margin: 0 auto;
         }
 
-        .services-row {
+         .text-row {
             display: flex;
             flex-direction: row;
             gap: 60px;
             margin-bottom: 40px;
             flex-wrap: wrap;
         }
-        
 
-        .services-row h2 {
+
+         .text-row h2 {
             flex: 1;
             font-size: 32px;
             font-weight: 700;
@@ -627,7 +627,7 @@
         
         }
 
-        .services-row p {
+         .text-row p {
             flex: 2;
             font-size: 20px;
             line-height: 1.6;
