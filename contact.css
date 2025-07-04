@@ -25,7 +25,7 @@
     }
 
     header.scrolled {
-    background-color: brown;
+    background-color: #C3D1D8;
     height: 80px;
     }
 
@@ -72,25 +72,6 @@
     .btn-filled {
       background-color: black;
       color: white;
-    }
-
-     header.scrolled nav a {
-      text-decoration: none;
-      color: white;
-      font-weight: 500;
-      font-size: 14px;
-    }
-
-    
-     header.scrolled .btn-outline {
-      background: transparent;
-      border: 1px solid transparent;
-      color: white;
-    }
-
-    header.scrolled .btn-filled {
-      background-color: white;
-      color: black;
     }
 
         /* Hamburger Menu Styles */
@@ -379,8 +360,8 @@
             margin-top: 20px;
             padding: 12px 25px;
             width: 100px;
-            background-color: #c2185b;
-            color: #fff;
+            background-color: #C3D1D8;
+            color: #000;
             font-weight: 600;
             border: none;
             border-radius: 5px;
@@ -388,7 +369,7 @@
         }
 
         .contact-form button:hover {
-            background-color: #a3154a;
+            background-color: #C3D1D8;
         }
 
         .map {
@@ -629,8 +610,8 @@
 
    /* Footer Section */
 .site-footer {
-  background-color: brown;
-  color: #fff;
+  background-color: #C3D1D8;
+  color: #000;
   padding: 60px 110px;
  
 }
@@ -656,19 +637,19 @@
 .footer-column ul li {
   margin-bottom: 10px;
   font-size: 14px;
-  color: #ccc;
+  color: #000;
   line-height: 1.6;
 }
 
 .footer-column ul li i {
   margin-right: 10px;
-  color: #fff;
+  color: #000;
   width: 20px;
 }
 
 .footer-column ul li a {
-  
-  color: #ccc;
+
+  color: #000;
   text-decoration: none;
   font-size: 14px;
 }
@@ -680,7 +661,7 @@
 .footer-description {
   margin-top: 15px;
   font-size: 14px;
-  color: #ccc;
+  color: #000;
   line-height: 1.6;
 }
 
@@ -693,7 +674,7 @@
 /* Newsletter */
 .newsletter p {
   font-size: 14px;
-  color: #ccc;
+  color: #000;
   margin-bottom: 10px;
 }
 
@@ -738,7 +719,7 @@
 
 .footer-links a {
   margin-right: 15px;
-  color: #ccc;
+  color: #000;
   text-decoration: none;
 }
 
@@ -748,12 +729,12 @@
 
 .footer-social a {
   margin-left: 10px;
-  color: #ccc;
+  color: #000;
   font-size: 16px;
 }
 
 .footer-social a:hover {
-  color: #fff;
+  color: #000;
 }
 
 /* Responsive */

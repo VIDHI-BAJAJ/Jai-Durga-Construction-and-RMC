@@ -25,7 +25,7 @@
     }
 
     header.scrolled {
-    background-color: brown;
+    background-color: #C3D1D8;
     height: 80px;
      }
 
@@ -75,6 +75,24 @@
       color: black;
     }
     
+    header.scrolled nav a {
+      text-decoration: none;
+      color: black;
+      font-weight: 500;
+      font-size: 14px;
+    }
+
+    
+     header.scrolled .btn-outline {
+      background: transparent;
+      border: 1px solid transparent;
+      color: black;
+    }
+
+    header.scrolled .btn-filled {
+      background-color: white;
+      color: black;
+    }
         /* Hamburger Menu Styles */
         .hamburger {
             display: none;
@@ -110,7 +128,7 @@
             left: -100%;
             width: 100%;
             height: 100vh;
-            background-color: brown;
+            background-color: #C3D1D8;
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -134,7 +152,7 @@
 
         .mobile-menu a {
             text-decoration: none;
-            color: white;
+            color: black;
             font-weight: 500;
             font-size: 18px;
         }
@@ -443,7 +461,7 @@
 
         /* about section */
         .about-section {
-            background-color: #fff;
+            background-color: #f3f3f3;
             color: #222;
             padding: 30px 110px;
         }
@@ -466,7 +484,7 @@
             font-size: 32px;
             font-weight: 700;
             color: #111;
-            text-align: justify;
+          
         }
 
         .text-row p {
@@ -500,7 +518,7 @@
             
             .text-row h2 {
                 font-size: 42px;
-                text-align: justify;
+
             }
             
             .text-row p {
@@ -535,7 +553,7 @@
             
             .text-row h2 {
                 font-size: 28px;
-                text-align: justify;
+                
             }
             
             .text-row p {
@@ -564,7 +582,7 @@
             .text-row h2 {
                 font-size: 26px;
                 margin-bottom: 10px;
-                text-align: justify;
+              
             }
             
             .text-row p {
@@ -593,7 +611,7 @@
             .text-row h2 {
                 font-size: 22px;
                 margin-bottom: 8px;
-                text-align: justify;
+              
             }
             
             .text-row p {
@@ -635,7 +653,7 @@
             font-size: 32px;
             font-weight: 700;
             color: #111;
-            text-align: justify;
+           
         
         }
 
@@ -731,7 +749,7 @@
             
             .text-row h2 {
                 font-size: 28px;
-                text-align: justify;
+              
             }
             
             .services-container {
@@ -760,7 +778,7 @@
             .text-row h2 {
                 font-size: 26px;
                 flex: none;
-                text-align: justify;
+               
             }
             
             .text-row p {
@@ -788,7 +806,7 @@
             .text-row h2 {
                 font-size: 24px;
                 line-height: 1.3;
-                text-align: justify;
+               
             }
             
             .text-row p {
@@ -835,7 +853,7 @@
             
             .text-row h2 {
                 font-size: 22px;
-                text-align: justify;
+                
             }
             
             .text-row p {
@@ -862,7 +880,7 @@
             .text-row h2 {
                 flex: 1;
                 font-size: 24px;
-                text-align: justify;
+                
             }
             
             .text-row p {
@@ -1069,7 +1087,7 @@
 /* core-section */
  .core-values {
     padding: 30px 20px;
-    background-color: #fff;
+    background-color: #f3f3f3;
     text-align: center;
   }
 
@@ -1117,6 +1135,7 @@
 /* Contact Section */
 .contact-section {
     padding: 30px 110px;
+    background-color: #f3f3f3;
 }
 
         .contact-wrapper {
@@ -1222,8 +1241,8 @@
             margin-top: 20px;
             padding: 12px 25px;
             width: 100px;
-            background-color: #c2185b;
-            color: #fff;
+            background-color: #C3D1D8;
+            color: #000;
             font-weight: 600;
             border: none;
             border-radius: 5px;
@@ -1231,7 +1250,7 @@
         }
 
         .contact-form button:hover {
-            background-color: #a3154a;
+            background-color: #C3D1D8;
         }
 
         .map {
@@ -1467,6 +1486,7 @@
         .testimonials-section {
             padding: 30px 110px;
             text-align: center;
+            background-color: #f3f3f3;
         }
 
         .section-title {
@@ -2132,8 +2152,8 @@
 
 /* Footer Section */
 .site-footer {
-  background-color: brown;
-  color: #fff;
+  background-color: #C3D1D8;
+  color: #000;
   padding: 60px 110px;
  
 }
@@ -2159,19 +2179,19 @@
 .footer-column ul li {
   margin-bottom: 10px;
   font-size: 14px;
-  color: #ccc;
+  color: #000;
   line-height: 1.6;
 }
 
 .footer-column ul li i {
   margin-right: 10px;
-  color: #fff;
+  color: #000;
   width: 20px;
 }
 
 .footer-column ul li a {
   
-  color: #ccc;
+  color: #000;
   text-decoration: none;
   font-size: 14px;
 }
@@ -2183,7 +2203,7 @@
 .footer-description {
   margin-top: 15px;
   font-size: 14px;
-  color: #ccc;
+  color: #000;
   line-height: 1.6;
 }
 
@@ -2196,7 +2216,7 @@
 /* Newsletter */
 .newsletter p {
   font-size: 14px;
-  color: #ccc;
+  color: #000;
   margin-bottom: 10px;
 }
 
@@ -2241,7 +2261,7 @@
 
 .footer-links a {
   margin-right: 15px;
-  color: #ccc;
+  color: #000;
   text-decoration: none;
 }
 
@@ -2251,12 +2271,12 @@
 
 .footer-social a {
   margin-left: 10px;
-  color: #ccc;
+  color: #000;
   font-size: 16px;
 }
 
 .footer-social a:hover {
-  color: #fff;
+  color: #000;
 }
 
 /* Responsive */
