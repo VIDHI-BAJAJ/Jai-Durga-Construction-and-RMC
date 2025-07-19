@@ -428,7 +428,7 @@
 
     <div class="contact-form">
       <form action="https://api.web3forms.com/submit" method="POST">
-    <input type="hidden" name="access_key" value="31830077-a1be-4195-a8da-4ed648536391">
+    <input type="hidden" name="access_key" value="31830077-a1be-4195-a8da-4ed64853639">
         <label for="name">Name</label>
         <input type="text" id="name" name="name" placeholder="Enter your name" required />
 
@@ -495,8 +495,9 @@
     <div class="footer-column newsletter">
       <h4>Stay Updated</h4>
       <p>Subscribe to our newsletter for the latest news and project updates.</p>
-      <form class="newsletter-form">
-        <input type="email" placeholder="Enter your email" required />
+    <form action="https://api.web3forms.com/submit" method="POST" class="newsletter-form">
+    <input type="hidden" name="access_key" value="31830077-a1be-4195-a8da-4ed64853639">
+      <input type="email" id="email" name="email" placeholder="Enter your email" required />
         <button type="submit">Subscribe</button>
       </form>
     </div>
